@@ -1312,3 +1312,21 @@
           
         }
       
+  /* Fix for tax credit section at high zoom levels */
+  .sqs-html-content {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .sqs-html-content h4,
+  .sqs-html-content p {
+  white-space: normal !important; /* Override pre-wrap */
+  max-width: 100%;
+  }
+
+  /* Specific styling for the tax credit section */
+  .sqsrte-text-color--white {
+  display: inline-block;
+  max-width: 100%;
+  }
