@@ -1330,3 +1330,8 @@
   display: inline-block;
   max-width: 100%;
   }
+
+
+  .skip-link, .skip-to-content {
+    display: none !important;
+}
