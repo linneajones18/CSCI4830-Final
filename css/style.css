@@ -1335,3 +1335,14 @@
   .skip-link, .skip-to-content {
     display: none !important;
 }
+
+
+/*Disclaimer message fix */
+.disclaimer-text, .form-footer, .small-print {
+    font-size: 14px !important; /* Adjust size as needed */
+    line-height: 1.4; /* Improves readability */
+    color: #555 !important; /* Ensure contrast */
+}
+.disclaimer-text {
+    color: #666 !important; /* Darker gray for better contrast */
+}
